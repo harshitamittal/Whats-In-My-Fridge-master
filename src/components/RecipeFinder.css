@@ -1,0 +1,38 @@
+.button{
+    text-align: center;
+}
+
+
+button.button2{
+    display:inline-block;
+    padding:0.5em 3em;
+    border:0.16em solid rgb(14, 13, 13);
+    margin:0 0.3em 0.3em 0;
+    box-sizing: border-box;
+    text-decoration:none;
+    text-transform:uppercase;
+    font-family:'Roboto',sans-serif;
+    font-weight:400;
+    text-align:center;
+    transition: all 0.15s;
+}
+.mittal:hover{
+    background-color: #DD4A48 !important;
+}
+button.button2:hover{
+    text-decoration: none;
+    color:rgb(58, 50, 50);
+    border-color:rgb(63, 58, 58);
+}
+
+button.button2:active{
+    color:rgb(70, 49, 49);
+    border-color:rgb(75, 48, 48);
+}
+
+@media all and (max-width:30em){
+    button.button2{
+    display:block;
+    margin:0.4em auto;
+}
+}
